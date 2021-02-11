@@ -5,6 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+#nome{
+    font-family:'Oswald',sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    }
+    .skil{
+        font-size: 18px
+        ;
+    }
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify
+}
+img{
+    border-radius: 50%;
+}
+body{
+    background-color: rgba(197, 226, 219, 0.801);
+}
+a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 40%;
+    line-height: 80px;
+}    
+    </style>
 </head>
 <body>
     <h1>Meu Portfolio</h1>
@@ -16,10 +47,10 @@
         <li><a href="#Recomendações de Conteúdo">Recomendações de Conteúdo</a></li>
     </ol>
     <br>
-    <h2>Fernando Maia</h2>
+    <h2 id="nome">Fernando Maia</h2>
     <img src="SelfieFernando.jpg" width="200px" alt="Foto de Fernando">
     <p id="Sobre mim" >
-        Sou de Belo Horizonte - MG, tenho 28 anos, engenheiro metalurgista de formação, vi a tecnologia como minha principal aliada e decidi reescrever minha história profissional! 
+        Sou de <em> Belo Horizonte -MG</em>, tenho 28 anos, engenheiro metalurgista de formação, vi a tecnologia como minha principal aliada e decidi reescrever minha história profissional! 
     <br> 
         Atualmente estudo na Trybe  e estou em busca do meu sonho de me tornar um desenvolvedor de softwares. 
     </p>
@@ -27,12 +58,14 @@
     <ul id="Habilidades">
         <li>Unix & Bash</li>
         <li>Git & GitHub</li>
-        <li><strong>HTTP</strong></li>
+        <li class="skil"><strong>HTTP</strong></li>
+        <li class="skil"><strong>CSS</strong></li>
         <li>Fundamentos de SCRUM</li>
         <li>Fundamentos de SAP e ITIL</li>
     </ul>
     <br>
     <h3 id="Recomendações de Conteúdo">Recomendações de Conteúdo</h3>
+    <br>
     <a href="https://manualdomundo.uol.com.br/" target=_blank>Blog Manual do Mundo</a>
     <br>
     <a href="#Índice">Volte ao topo</a>
