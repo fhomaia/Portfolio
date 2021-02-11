@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +19,7 @@
     <h2>Fernando Maia</h2>
     <img src="SelfieFernando.jpg" width="200px" alt="Foto de Fernando">
     <p id="Sobre mim" >
-        Sou de Belo Horizonte - MG, tenho 28 anos, engenheiro metalurgista de formação, vi a tecnologia como minha principal aliada e descidi reescrever minha história profissional! 
+        Sou de Belo Horizonte - MG, tenho 28 anos, engenheiro metalurgista de formação, vi a tecnologia como minha principal aliada e decidi reescrever minha história profissional! 
     <br> 
         Atualmente estudo na Trybe  e estou em busca do meu sonho de me tornar um desenvolvedor de softwares. 
     </p>
