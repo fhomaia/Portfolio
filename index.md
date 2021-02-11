@@ -17,11 +17,10 @@
     <br>
     <h2>Fernando Maia</h2>
     <img src="SelfieFernando.jpg" width="200px" alt="Foto de Fernando">
-    <p id="Sobre mim">
+    <p id="Sobre mim" >
         Sou de Belo Horizonte - MG, tenho 28 anos, engenheiro metalurgista de formação, vi a tecnologia como minha principal aliada e descidi reescrever minha história profissional! 
     <br> 
         Atualmente estudo na Trybe  e estou em busca do meu sonho de me tornar um desenvolvedor de softwares. 
-
     </p>
     <h3>Habilidades</h3>
     <ul id="Habilidades">
