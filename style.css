@@ -2,7 +2,7 @@ h1,h2,h3{
     color:rgba(75, 1, 75, 0.829);
     text-align: center;
 }
-#nome{
+#Nome{
     font-family:'Oswald',sans-serif;
     font-weight: 600;
     font-size: 2em;
@@ -14,18 +14,19 @@ h1,h2,h3{
 p{
     text-align: justify;
     background-color: #f5f5f5;
-    padding: 10px 300px ;
+    padding: 10px 200px ;
     margin: auto;
     font-size: 18px;
         
         
 }
-.Perfil{
+/*.Perfil{
     border-radius: 50%;
     display: block;
     margin: auto;
+    width: 200px;
     
-}
+}*/
 body{
     background-color:white;
     font-weight: 500;
@@ -34,16 +35,18 @@ body{
     color: black;
     
 }
-a{
+.Botão{
     color:white;
     background-color:rgba(23, 134, 70, 0.788);
     text-decoration: none;
-    padding: 15px;
+    padding:15px;
     line-height: 80px;
     font-size: 17px;
     border-radius: 12px;
+    
+    
 }    
-a:hover{
+.Botão:hover{
     background-color: rgba(27, 185, 93, 0.788);
     font-weight: bold;
 }
@@ -71,3 +74,26 @@ ul{
     margin: auto;
     width: 60%;
 }
+.Contato{
+    margin-left: 0%;
+    float: right;
+    width: 50px;
+}
+.Heading{
+    background-image:url(IMG_3761.JPG);
+    background-size:cover;
+    background-position:right;
+    width: 60%;
+    margin: auto;
+    padding: 100px;
+}
+.Heading .Top{
+    visibility:hidden
+}
+.Heading:hover .Top{
+    visibility: visible;   
+}
+.Heading:hover{
+    background: rgba(0, 216, 29, 0.1);
+}
+
