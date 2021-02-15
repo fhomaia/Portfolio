@@ -7,74 +7,52 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
-    <style>
-h1,h2,h3{
-    color:rgba(75, 1, 75, 0.829);
-    text-align: center;
-}
-#nome{
-    font-family:'Oswald',sans-serif;
-    font-weight: 600;
-    font-size: 2em;
-    color: black;
-    }
-.skil{
-        font-size: 18px
-        ;
-}
-p{
-        text-align: justify
-}
-img{
-    border-radius: 50%;  
-}
-body{
-    background-color:white;
-    font-weight: 500;
-    line-height: 1.5;
-    font-family: 'Josefin Sans',sans-serif;
-    color: black;
-    
-}
-a{
-    color:white;
-    background-color:rgba(23, 134, 70, 0.788);
-    text-decoration: none;
-    padding: 15px;
-    line-height: 80px;
-    font-size: 17px;
-    border-radius: 12px;
-    }    
-ol{
-    text-align: center;
-}
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <br>
-    <br>
-    <h1>Hello!</h1>
+    <h1 class="top">Hello!</h1>
     <h2>I`m a Web Developer</h2>
     <h2 id="nome">Fernando Maia</h2>
-    <img src="SelfieFernando.jpg" width="200px" alt="Foto de Fernando">
+    <img src="SelfieFernando.jpg" width="200px" alt="Foto de Fernando" class="Perfil">
     <p id="Sobre mim" >
         Sou de <em> Belo Horizonte -MG</em>, tenho 28 anos, engenheiro metalurgista de formação, vi a tecnologia como minha principal aliada e decidi reescrever minha história profissional! 
     <br> 
         Atualmente estudo na Trybe  e estou em busca do meu sonho de me tornar um desenvolvedor de softwares. 
     </p>
-    <h3>Dev Skills</h3>
-    <ul id="Habilidades">
-        <li>Unix & Bash</li>
-        <li>Git & GitHub</li>
-        <li class="skil"><strong>HTTP</strong></li>
-        <li class="skil"><strong>CSS</strong></li>
-        <li>Fundamentos de SAP e ITIL</li>
-    </ul>
-    <br>
-    <h3 id="Recomendações de Conteúdo">Recomendações de Conteúdo</h3>
-    <br>
-    <a href="https://manualdomundo.uol.com.br/" target=_blank>Blog Manual do Mundo</a>
-    <br>
-    <a href="#Índice">Volte ao topo</a>
+    <div class="Habilidades">
+        <div class="DevTools"><img src="devtool.png" alt="Ferramenta" class="Icon">
+        <h3>Dev Tools</h3>
+        <ul>
+            <li>Unix & Bash</li>
+            <li>Git & GitHub</li>
+            <li class="skill"><strong>HTTP</strong></li>
+            <li class="skill"><strong>CSS</strong></li>
+        </ul>
+        </div>
+        <div class="DevTools"><img src="Certificate.png" alt="Ferramenta" class="Icon">
+            <h3>Cursos & Certificados</h3>
+            <ul>
+                <li class="skill"><strong>SCRUM fundamentals</strong></li>
+                <li>Introduction to ITIL 4</li>
+                <li>Fundamentals to ERP SAP</li>
+                <li>Excel Avançado</li>
+            </ul>
+        </div>
+        <div class="DevTools"><img src="Language.png" alt="Ferramenta" class="Icon">
+            <h3>Idiomas</h3>
+            <ul>
+                <li> English (fluent)</li>
+                <li> Español (avanzado)</li>
+                <br>
+                <br>
+            </ul>
+        </div>
+    </div>
+    <div class="RecomendaçõesDeConteúdo">
+    <h3>Recomendações de Conteúdo
+    </h3>
+    <a href="https://blog.betrybe.com/" target=_blank>Blog da Trybe</a>
+    </div>
+    <a href="#top">Volte ao topo</a>
 </body>
 </html>
